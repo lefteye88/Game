@@ -1,0 +1,30 @@
+.background    { background: white;
+                 table-layout: fixed;
+                 border-spacing: 0;
+				 background-image: url("night.gif");
+				 height: 100%; 
+				 background-position: center;
+				 background-repeat: no-repeat;
+				 background-size: 100%;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("fire.gif"); background-size: 100% }
+.wall          { background-image: url("brick.png"); background-repeat: no-repeat; background-size: 100% }              
+
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("coin.gif"); background-size: 100% }
+.player { background-image: url("mario.png"); background-position: center; background-size: 133%  }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("death.png"); background-repeat: no-repeat; background-size: 75%;
+}
+.won .player {
+  background-image: url("won.png"); background-repeat: no-repeat; background-size: 93%;
+}
